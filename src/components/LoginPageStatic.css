@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "IRANSansX-Medium";
+  src: local("IRANSansX-Medium"),
+    url(../fonts/IRANSansX-Medium.woff2) format("woff2");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: IRANSansX-Medium;
+}
+
+.login-page {
+  max-width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  background: #f6f7fb;
+  font-family: sans-serif;
+}
+
+.vector-shape {
+  max-width: 1243px;
+  height: 1243px;
+  left: -486px;
+  top: -613px;
+  position: absolute;
+}
+
+.eclipse {
+  width: 1243px;
+  height: 1243px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #eef2f7;
+  border-radius: 1000px;
+}
+
+.logo-page {
+  width: 378px;
+  height: 339px;
+  left: 574px;
+  top: 752px;
+  position: absolute;
+}
+
+.login-box {
+  left: 900px;
+  /* left: 809px; */
+  /* top: 268px; */
+  top: 230px;
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+}
+
+.Frame-text h1 {
+  color: #2464ae;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.login-inputs {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 16px;
+  display: flex;
+}
+
+.login-input-number,
+.login-input-password {
+  width: 481px;
+  height: 60px;
+  position: relative;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #d7dce4;
+}
+
+.phone-number,
+.password {
+  width: 100%;
+  height: 100%;
+  padding: 14px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  position: absolute;
+  text-align: right;
+  color: #a7a9ab;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.login-button {
+  display: flex;
+  width: 481px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+#login-button {
+  width: 100%;
+  padding: 11px 15px;
+  color: #fff;
+  background-color: #2464ae;
+  border-radius: 12px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.forgot-password {
+  width: 481px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.forgot-password a {
+  color: #133358;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  font-style: normal;
+  line-height: normal;
+}
+
+.remaining-effort {
+  direction: rtl;
+  color: #ae2445;
+  font-size: 16px;
+  font-weight: 500;
+}
